@@ -1,0 +1,106 @@
+.home-container {
+
+    .home-top-header {
+        width: 100%;
+        height: 38px;
+        background-color: #000;
+        padding: 5px 0 5px;
+        margin: 0 auto;
+        color: #fff;
+    }
+}
+
+.home-top-header .text-top-header-left, 
+.home-top-header .text-top-header-right {
+    display: flex;
+    align-items: center; 
+    
+}
+
+.home-top-header .text-top-header-left {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.home-top-header .text-top-header-right {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.home-top-header p {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.home-top-header img {
+    width: 30px; 
+    height: 30px;
+    margin-left: 5px; 
+    vertical-align: middle; 
+}
+
+/* navigation css */
+.navbar {
+    background-color: #f8f9fa; /* Màu nền sáng */
+  }
+  
+  .nav-link-custom {
+    font-weight: bold;
+    color: #000;
+    margin: 0 15px;
+  }
+  
+  .nav-link-custom:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .form-inline .form-control {
+    width: 200px;
+  }
+  
+  .fa-search, .fa-shopping-cart {
+    font-size: 18px;
+    color: #000;
+    margin-left: 15px;
+  }
+
+
+/* Căn giữa hình ảnh trong div có lớp logo_footer_x */
+.logo_footer_x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* CSS cho hình ảnh bên trong div logo_footer_x */
+.logo_footer_x img {
+  display: block;
+  max-width: none;
+  height: auto;
+}
+
+/* Căn giữa hình ảnh trong div có lớp logo_footer */
+.logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+/* CSS cho hình ảnh bên trong div logo_footer */
+.logo_footer img {
+  display: block;
+  max-width: none;
+  height: auto;
+}

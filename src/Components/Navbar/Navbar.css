@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #000000;
+}
+
+.info-left, .info-right {
+    display: flex;
+    align-items: center;
+}
+
+.info-left img, .info-right img {
+    margin-left: 5px; 
+    width: 16px;
+    height: 16px;
+}
