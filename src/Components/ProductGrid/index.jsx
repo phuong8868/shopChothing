@@ -15,7 +15,7 @@ function ProductGrid() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://localhost:3001/clothing');
+      const response = await fetch('https://webfullshop.onrender.com/clothing');
       const data = await response.json();
       setProducts(data.data);
     };

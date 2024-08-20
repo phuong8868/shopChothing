@@ -38,7 +38,7 @@ const NavbarCusttom = () => {
     if (query) {
       const fetchData = async () => {
         const response = await fetch(
-          `http://localhost:3001/search?query=${query}`
+          `https://webfullshop.onrender.com/search?query=${query}`
         );
         const data = await response.json();
         setProducts(data.data);

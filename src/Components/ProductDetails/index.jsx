@@ -9,7 +9,7 @@ const ProductDetail = () => {
   useEffect(() => {
     if (id) {
       const fetchData = async () => {
-        const response = await fetch(`http://localhost:3001/clothing/detail/${id}`);
+        const response = await fetch(`https://webfullshop.onrender.com/clothing/detail/${id}`);
         const data = await response.json();
         setProduct(data.data);        
       };
